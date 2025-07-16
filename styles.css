@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+body{
+	background-color:#EE82EE;
+	padding:10em;
+}
+#buttons{
+	display:flex;
+	justify-content:center;
+	gap: 1em;
+	
+}
+
+.btn{
+    padding: 0.5em 1em;
+	background-color:#4CAF50;
+	color: white;
+	cursor: pointer;
+	
+}
+.stop{
+	padding: 0.5em 1em;
+	background-color:#FF0000;
+	color:white;
+	cursor:pointer;
+}
