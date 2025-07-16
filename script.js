@@ -8,7 +8,7 @@ function playSound(fileName){
 		currentAudio.currentAudio = 0;
 	}
 
-	currentAudio = new Audio('sound/${fileName}');
+	currentAudio = new Audio(`sounds/${fileName}`);
 	currentAudio.play();
 }
 
