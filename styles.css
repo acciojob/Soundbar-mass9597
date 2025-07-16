@@ -1,25 +1,26 @@
 /*  your css code here. If applicable */
 body{
-	background-color:#EE82EE;
-	padding:10em;
+	font-family: 'Segoe UI', sans-serif;
+	background-color:#f0f8ff;
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	padding:180px;
 }
 #buttons{
 	display:flex;
-	justify-content:center;
-	gap: 1em;
+	gap:15px;
 	
 }
 
-.btn{
-    padding: 0.5em 1em;
-	background-color:#4CAF50;
+.btn, .stop{
+    padding: 10px 15px;
+	background-color:#9b26b6;
+	border:none;
 	color: white;
+	font-size: 1rem; 
 	cursor: pointer;
+	transition: background-color 0.3s ease;
 	
 }
-.stop{
-	padding: 0.5em 1em;
-	background-color:#FF0000;
-	color:white;
-	cursor:pointer;
-}
+
